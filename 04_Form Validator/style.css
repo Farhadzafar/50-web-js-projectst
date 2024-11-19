@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #333;
+    background-color: #ffffcc;
+    font-size: 18px;
+    font-family: sans-serif;
+    /* line-height: 10px; */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_input{
+    width: 750px;
+    height: 82vh;
+    display:flex;
+    background-color: inherit;
+    border-radius:10px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.form{
+    width: 50%;
+    height: inherit;
+    padding: 32px;
+}
+.form h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.form_lable{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.form_lable input{
+    font-size: 18px;
+    color: #636363;
+    height:35px;
+    margin-bottom: 20px;
+    border: 2px solid #999;
+    border-radius: 3px;
+    padding: 5px;
+    
+}
+
+.form_lable input:focus{
+    border: 2px solid #1b1717;
+    outline: none;
+}
+
+ button{
+    width: 85px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #cc9966;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 4px;
+    margin-left: 90px;
+    margin-top: 20px;
+    transition: button .6s ease;
+}
+
+button:hover{
+    background-color: #e4b280;
+    color:#ffffff;
+}
+
+
+
+.image{
+    width: 50%;
+    height: auto;
+    background-image: url(./image/FB_IMG_15974302456364059.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter:inherit;
+
+}

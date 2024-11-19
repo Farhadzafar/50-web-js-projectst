@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    background-color: #333;
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.heading{
+    margin: 65px;
+}
+.tittle{
+    font-size: 48px;
+    color: #f8f8f8;
+    font-weight: 600;
+    text-shadow: 3px 0  #ff0000;
+    font-family: "Arvo", cursive;
+  /* text-shadow: 3px 0 #DA0463; */
+}
+
+
+.stopwatch{
+    background-color: #06060b;
+    color: #f8f8f8;
+    border-radius: 5px;
+}
+.timerdisply{
+    letter-spacing: 1px;
+    padding: 20px 52px;
+    font-size: 50px;
+}
+.button{
+    margin-top: 22px;
+}
+.bat{
+    padding: 12px 24px;
+    background: none;
+    border: none;
+    color: #f8f8f8;
+    font-size: 24px;
+    background-color: var(--color);
+    margin-inline: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transition: all .20s ease-in;
+}
+.bat:hover{
+    box-shadow: 2px 3px 6px rgba(185, 185, 185, 0.247);
+    opacity: .7;
+}
+
+
+
+
+/* ****************** */
+     /* about me */
+/* ****************** */
+
+.about_me{
+    position: relative;
+    left: 0;
+    top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    
+}
+
+.phote{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border: 2px solid #9e9999; 
+    background-image: url(./image/Farhad.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    box-shadow: 2px 3px 8px rgba(245, 222, 178, 0.534);
+
+    
+}
+
+.peragrap{
+    margin-top: 12px;
+    color: #f8f8f8;
+    font-size: 18px;
+}
+
+.peragrap_date{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #a19e9e;
+}
